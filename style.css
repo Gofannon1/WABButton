@@ -1,21 +1,31 @@
-body { /* Start the styles for the page. */
-    background: white; /* Give the page a white background at first. */
-    color: black; /* Make the starting text black. */
-    font-family: Arial, sans-serif; /* Choose an easy-to-read font. */
-    text-align: center; /* Put the text and button in the middle. */
-    padding-top: 80px; /* Leave space above the message. */
-    min-height: 100vh; /* Make the background cover the screen height. */
-    margin: 0; /* Remove the browser's default outer space. */
-    box-sizing: border-box; /* Include padding in the page height. */
-} /* Finish the page styles. */
-h1 { /* Start the message styles. */
-    font-size: 48px; /* Make the message large. */
-} /* Finish the message styles. */
-button { /* Start the button styles. */
-    background: yellow; /* Make the button yellow. */
-    color: black; /* Make the button text black. */
-    font-size: 24px; /* Make the button text easy to read. */
-    padding: 15px 30px; /* Add space inside the button. */
-    border: 2px solid black; /* Draw a black border. */
-    cursor: pointer; /* Show a pointing hand over the button. */
-} /* Finish the button styles. */
+/* Style the whole page */
+body {
+    /* Use Arial font */
+    font-family: Arial, sans-serif;
+    /* Put everything in the center */
+    text-align: center;
+    /* Add space at the top */
+    padding-top: 100px;
+    /* Start with a white background */
+    background-color: white;
+    /* Default text colour */
+    color: black;
+}
+
+/* Style the button */
+button {
+    /* Make the button larger */
+    padding: 15px 30px;
+    /* Increase text size */
+    font-size: 20px;
+    /* Show a hand when hovering */
+    cursor: pointer;
+}
+
+/* This class will be added by JavaScript */
+.wabMode {
+    /* Black background */
+    background-color: black;
+    /* Yellow text */
+    color: yellow;
+}

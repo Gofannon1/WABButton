@@ -1,14 +1,23 @@
-<!DOCTYPE html> <!-- Tell the browser this is an HTML page. -->
-<html lang="en"> <!-- Start the page and set its language to English. -->
-<head> <!-- Start the page settings. -->
-    <meta charset="UTF-8"> <!-- Allow common letters and symbols. -->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Fit the page to the screen. -->
-    <title>WAB App</title> <!-- Set the browser tab title. -->
-    <link rel="stylesheet" href="style.css"> <!-- Load the CSS file. -->
-</head> <!-- Finish the page settings. -->
-<body> <!-- Start the visible page. -->
-    <h1 id="message">Click the button!</h1> <!-- Show a message that JavaScript can change. -->
-    <button id="wabButton">Click me</button> <!-- Add the button. -->
-    <script src="script.js"></script> <!-- Load the JavaScript file. -->
-</body> <!-- Finish the visible page. -->
-</html> <!-- Finish the HTML page. -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Tell the browser what characters to use -->
+    <meta charset="UTF-8">
+    <!-- Make the page work nicely on phones -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Title shown in the browser tab -->
+    <title>WAB App</title>
+    <!-- Connect the CSS file -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Main heading -->
+    <h1 id="message">Click the button!</h1>
+    <!-- Button that runs JavaScript when clicked -->
+    <button id="wabButton">Press Me</button>
+    <!-- Burger image, hidden until the button is clicked -->
+    <img id="burgerImage" src="burger.webp" alt="A burger" style="display: none;">
+    <!-- Connect the JavaScript file -->
+    <script src="script.js"></script>
+</body>
+</html>
